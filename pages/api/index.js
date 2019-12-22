@@ -12,7 +12,7 @@ export default async (req, res) => {
       JSON.stringify({
         error: "missing github username",
         example:
-          "https://github-contributions-json-api-9rbq4wpsw.now.sh/api/?username=gaearon"
+          "https://github-contributions-json-api.ethanneff.now.sh/api/?username=gaearon"
       })
     );
   }
