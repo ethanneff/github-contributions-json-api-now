@@ -4,12 +4,12 @@ A NextJS serverless API to get a user's Github contributions. Hosted on [now.sh]
 
 ### Endpoint
 
-https://github-contributions-json-api.ethanneff.now.sh/api
+https://github-contributions-json-api.now.sh/api
 
 ### Example Request
 
 ```sh
-curl https://github-contributions-json-api.ethanneff.now.sh/api?username=gaearon
+curl https://github-contributions-json-api.now.sh/api?username=gaearon
 ```
 
 ### Example Response
