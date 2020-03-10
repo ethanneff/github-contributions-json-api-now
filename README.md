@@ -388,5 +388,5 @@ curl https://github-contributions-json-api.now.sh/api?username=gaearon
 ### Deploy
 
 ```sh
-now
+now --prod
 ```
