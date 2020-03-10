@@ -384,3 +384,9 @@ curl https://github-contributions-json-api.now.sh/api?username=gaearon
   "2019-12-23": 0
 }
 ```
+
+### Deploy
+
+```sh
+now
+```
