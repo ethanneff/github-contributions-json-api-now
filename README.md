@@ -385,6 +385,13 @@ curl https://github-contributions-json-api.now.sh/api?username=gaearon
 }
 ```
 
+### Develop
+
+```sh
+yarn dev
+open http://localhost:3333/api?username=ethanneff
+```
+
 ### Deploy
 
 ```sh
