@@ -25,7 +25,7 @@ export default async (req, res) => {
     const count = Number(item.attr("data-count"));
     if (date in activity) {
       activity[date] += count;
-    } else {
+    } else if (date) {
       activity[date] = count;
     }
   });
