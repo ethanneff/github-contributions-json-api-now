@@ -19,7 +19,8 @@ export default async (req, res) => {
   const url = `https://github.com/${username}`;
   const github = await axios.get(url, { headers: { Accept: "*/*" } });
   const $ = cheerio.load(github.data);
-  $(".day").each((_, element) => {
+
+  $(".ContributionCalendar-day").each((_, element) => {
     const item = $(element);
     const date = item.attr("data-date");
     const count = Number(item.attr("data-count"));
